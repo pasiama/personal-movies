@@ -1,15 +1,14 @@
-import { Outlet } from "react-router-dom";
 import Sidebar from "../../components/Sidebar";
-import Navbar from "../../components/Navbar";
+import Home from "../../components/Home";
 function Layout() {
   return (
-    <div className="grid grid-flow-col grid-rows-3 gap-4">
-      <div className="row-span-3 bg-black">
+    <div className="grid grid-flow-col gap-1">
+      <div className="row bg-black h-full">
         {" "}
         <Sidebar />
       </div>
-      <div className="col-span-2 bg-indigo-300 "><Navbar/></div>
-      <div className="col-span-2 row-span-2 bg-amber-300"><Outlet/></div>
+      {/* <div className="col-start-2 col-span-4 bg-indigo-300 "><Navbar/></div> */}
+      <div className="col-start-2 col-span-4 bg-white"><Home/></div>
 
       {/* <Navbar />
       <Outlet /> */}
