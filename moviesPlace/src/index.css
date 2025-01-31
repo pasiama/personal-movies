@@ -17,3 +17,12 @@
     display: flex;
     width: 100%;
 }
+.loginHero{
+  background-image:url('/images/loginHero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  width:100%;
+  background-blend-mode: multiply;
+}
